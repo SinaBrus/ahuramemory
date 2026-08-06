@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ahura Memory</title>
+
+<link rel="stylesheet" href="../../style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<div class="background">
+
+<div class="bubble one"></div>
+<div class="bubble two"></div>
+<div class="bubble three"></div>
+
+</div>
+
+
+
+<main class="container">
+
+
+<section class="memory-card">
+
+
+<img 
+class="cover"
+src="https://picsum.photos/700"
+alt="Memory cover">
+
+
+<h1>
+Forever Remembered
+</h1>
+
+
+<p class="subtitle">
+A voice preserved forever
+</p>
+
+
+
+<button id="playButton" class="play-btn">
+▶
+</button>
+
+
+
+<div id="waveform"></div>
+
+
+<div class="time">
+
+<span id="current">
+0:00
+</span>
+
+/
+
+<span id="duration">
+0:00
+</span>
+
+</div>
+
+
+
+<audio id="memoryAudio" src="memory.mp3"></audio>
+
+
+
+<a class="download" href="memory.mp3" download>
+Download Memory
+</a>
+
+
+
+<footer>
+
+✦ Crafted with Ahura Memory ✦
+
+</footer>
+
+
+</section>
+
+
+</main>
+
+
+
+<script src="https://unpkg.com/wavesurfer.js"></script>
+
+<script src="../../script.js"></script>
+
+
+</body>
+
+</html>
